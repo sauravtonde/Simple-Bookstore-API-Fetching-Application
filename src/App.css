@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+
+  text-align: center;
+  background: -webkit-linear-gradient(#17003f, #3b0127);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div {
+  margin: 20px;
+}
+
+.main {
+  
+  border-radius: 20px;
+  border: 2px solid linear-gradient(to bottom right, red, blue);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.main div {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto; /* Adjust this value to control the number of boxes per row */
+  height: auto; /* Adjust this value to control the height of the boxes */
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.main a {
+  --background: #fefbff;
+  --inner-shadow: #9faef9;
+  --inner-outline: #34217d;
+  --inner-outline-bottom: #fafcfe;
+  --inner-outline-middle: #8880d5;
+  --inner-outline-outer-top: #fefcff;
+  --inner-outline-outer-bottom-1: #29107b;
+  --line-1: #8676c9;
+  --line-2: #5c69ca;
+  position: relative;
+  background: var(--background);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 17px;
+  padding: 0.7em 1.8em;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 3px 1px var(--inner-shadow),
+    0px 2px 0px 0px var(--inner-outline-bottom),
+    0px -2px 0px 0px var(--inner-outline),
+    -2px -2px 0px 0px var(--inner-outline),
+    2px -2px 0px 0px var(--inner-outline),
+    0px 0px 0px 4px var(--inner-outline-middle),
+    0px -2px 0px 3px var(--inner-outline-outer-top),
+    0px 2px 0px 3px var(--inner-outline-outer-bottom-1);
+  text-decoration: none;
+  color: #333;
+}
+
+
+a {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #0056b3;
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+
+.bookdetails {
+  margin-top: 8%;
+  margin-bottom: 30px;
+  --background: #fefbff;
+  --inner-shadow: #9faef9;
+  --inner-outline: #34217d;
+  --inner-outline-bottom: #fafcfe;
+  --inner-outline-middle: #8880d5;
+  --inner-outline-outer-top: #fefcff;
+  --inner-outline-outer-bottom-1: #29107b;
+  --line-1: #8676c9;
+  --line-2: #5c69ca;
+  position: relative;
+  background: var(--background);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 17px;
+  padding: 0.7em 1.8em;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 3px 1px var(--inner-shadow),
+    0px 2px 0px 0px var(--inner-outline-bottom),
+    0px -2px 0px 0px var(--inner-outline),
+    -2px -2px 0px 0px var(--inner-outline),
+    2px -2px 0px 0px var(--inner-outline),
+    0px 0px 0px 4px var(--inner-outline-middle),
+    0px -2px 0px 3px var(--inner-outline-outer-top),
+    0px 2px 0px 3px var(--inner-outline-outer-bottom-1);
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+ 
+  
+}
+
+.bookdetails .title {
+  text-align: center;
+  background: -webkit-linear-gradient(#17003f, #3b0127);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.bookdetails .isbn,
+.bookdetails .pageCount,
+.bookdetails .authors {
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.go{
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding: 10px;
+  border: 3px solid black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
