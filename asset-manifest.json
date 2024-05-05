@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c635e245.css",
-    "main.js": "/static/js/main.c9f44065.js",
-    "static/js/453.94fd2899.chunk.js": "/static/js/453.94fd2899.chunk.js",
-    "index.html": "/index.html",
-    "main.c635e245.css.map": "/static/css/main.c635e245.css.map",
-    "main.c9f44065.js.map": "/static/js/main.c9f44065.js.map",
-    "453.94fd2899.chunk.js.map": "/static/js/453.94fd2899.chunk.js.map"
+    "main.css": "/Simple-Bookstore-API-Fetching-Application/static/css/main.c635e245.css",
+    "main.js": "/Simple-Bookstore-API-Fetching-Application/static/js/main.524e779d.js",
+    "static/js/453.94fd2899.chunk.js": "/Simple-Bookstore-API-Fetching-Application/static/js/453.94fd2899.chunk.js",
+    "index.html": "/Simple-Bookstore-API-Fetching-Application/index.html",
+    "main.c635e245.css.map": "/Simple-Bookstore-API-Fetching-Application/static/css/main.c635e245.css.map",
+    "main.524e779d.js.map": "/Simple-Bookstore-API-Fetching-Application/static/js/main.524e779d.js.map",
+    "453.94fd2899.chunk.js.map": "/Simple-Bookstore-API-Fetching-Application/static/js/453.94fd2899.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c635e245.css",
-    "static/js/main.c9f44065.js"
+    "static/js/main.524e779d.js"
   ]
 }
