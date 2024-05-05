@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Navigate, useParams,Link} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate, useParams, Link } from 'react-router-dom';
 
 
 // Books Page Component
@@ -21,7 +21,7 @@ const BooksPage = () => {
   return (
     <div>
       <div className='book'>
-      <h1>BOOKS</h1>
+        <h1>BOOKS</h1>
 
       </div>
 
@@ -67,17 +67,17 @@ const BookDetailsPage = () => {
   // Once the book data has loaded, display the book details
   return (
     <div>
-    <div className='bookdetails'>
-  <h1 className='title'>{book.title}</h1>
-  <p className='isbn'>ISBN: {book.isbn}</p>
-  <p className='pageCount'>Page Count: {book.pageCount}</p>
-  <p className='authors'>Authors: {book.authors.join(', ')}</p>
+      <div className='bookdetails'>
+        <h1 className='title'>{book.title}</h1>
+        <p className='isbn'>ISBN: {book.isbn}</p>
+        <p className='pageCount'>Page Count: {book.pageCount}</p>
+        <p className='authors'>Authors: {book.authors.join(', ')}</p>
 
-</div>
-<div style={{ display: 'flex', justifyContent: 'center' }}>
-  <Link className='go' to="/books">Go Back</Link>
-</div>
-</div>
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <Link className='go' to="/books">Go Back</Link>
+      </div>
+    </div>
 
 
 
